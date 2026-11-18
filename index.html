@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de sessionStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Painel de Sessão</h2>
+        <input type="text" id="infoInput" placeholder="Digite uma informação...">
+    
+        <button class="btn-save" onclick="salvarInfo()">Salvar na Sessão</button>
+        <button class="btn-load" onclick="carregarInfo()">Recuperar Informação</button>
+        <button class="btn-clear" onclick="limparInfo()">Apagar Informação</button>
+    
+        <div id="resultado"></div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
